@@ -1,0 +1,18 @@
+body {
+    background-color: #f7f7f7;
+    flex-direction: column;
+}
+
+h1 {
+    color: black;
+}
+
+input, select, span {
+    color: black;
+    margin-left: 10px;
+    background-color: #f0f0f0;
+}
+
+span {
+    padding: 2px;
+}

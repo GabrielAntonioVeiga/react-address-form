@@ -1,0 +1,76 @@
+
+.main {
+    position: relative;
+    min-width: 0;
+    max-width: 600px;
+    min-height: 0;
+    background-color: #f0f0f0;
+    border: none;
+    margin: 20px auto;
+}
+
+.main:has(.card){
+    border: 2px solid rgba(0, 0, 0, 0.342);
+}
+
+.card {
+    /* writing-mode: horizontal-tb !important;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;  
+    text-transform: none; 
+    text-indent: 0px;
+    text-shadow: none;
+    display: block;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: content-box; 
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;  */
+
+    position: relative;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    text-align: center;
+    margin: 15px auto;
+    color: black;
+    min-height: 30px;
+    width: 530px; 
+    border: 1px solid rgba(234, 29, 44, 0.6);
+    border-radius: 20px;
+    background-color: #f7f7f7;
+    font-weight: 500;
+}
+
+.add-button {
+    cursor: pointer;
+    padding: 8px;
+    margin-left: 10px;
+    background-color: #ea1d2c;
+    color: #f7f7f7;
+    border: none;
+}
+
+.add-button:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+
+.close-button {
+    border: none;
+    cursor: pointer;
+    position: absolute;    
+    background-color: #ea1d2c;
+    padding: 3px;
+    border-radius: 30%;
+    top: -10px;
+    right: -8px;
+}
+
+/*autoanimate */
+/* bigheads.io */
+/* https://www.freecodecamp.org/news/animate-react-apps/ */
+/* https://www.youtube.com/watch?v=GOuwOI-WSkE */
